@@ -61,7 +61,7 @@ export const Hero: React.FC<HeroProps> = ({ darkMode, onOpenResume, onOpenContac
                 darkMode ? 'text-white' : 'text-slate-900'
               }`}>
                 Hey, I'm{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-500 underline decoration-amber-500/30 decoration-wavy underline-offset-8">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-500 to-yellow-500 underline decoration-amber-500/30">
                   Md. Farahbi Ishrak Famous
                 </span>
               </h1>
