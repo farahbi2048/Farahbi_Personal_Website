@@ -1,8 +1,8 @@
 import { Project, TimelineItem, SkillCategory, Award, Stats } from '../types';
 
 export const PERSONAL_INFO = {
-  name: 'Md. Farahbi Ishrak Famous',
-  shortName: 'Farahbi Famous',
+  name: 'Md Farahbi Ishrak Famous',
+  shortName: 'Md Farahbi Ishrak',
   title: 'Software Developer & AI Student',
   degree: 'Bachelor of ICT (Major in Artificial Intelligence)',
   university: 'University of Tasmania',
