@@ -69,7 +69,7 @@ export const Header: React.FC<HeaderProps> = ({
               <span className={`font-bold tracking-tight text-lg block leading-tight ${
                 darkMode ? 'text-white' : 'text-slate-900'
               }`}>
-                {PERSONAL_INFO.shortName}
+                {PERSONAL_INFO.fullName}
               </span>
               <span className="text-xs text-amber-500 font-mono flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse inline-block"></span>
