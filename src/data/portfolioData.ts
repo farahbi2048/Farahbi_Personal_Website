@@ -10,7 +10,7 @@ export const PERSONAL_INFO = {
   email: 'farahbiishrak.fif@gmail.com',
   phone: '+61 415 185 672',
   linkedin: 'https://www.linkedin.com/in/md-farahbi-ishrak-0149461ba/',
-  github: 'https://www.linkedin.com/in/md-farahbi-ishrak-0149461ba/',
+  github: 'https://github.com/farahbi2048',
   gpa: '6.67 / 7.0',
   tagline: 'Aspiring ICT student with a passion for Artificial Intelligence, data pipelines, ML-based systems, and full-stack software development.',
   summary: `Aspiring ICT student with a growing passion for Artificial Intelligence and data pipelines and a strong academic background in programming, databases and applied machine learning. Proficient in Python, SQL, Java, React 19, and cloud tools including AWS, with hands-on experience building ML-based systems and full-stack prototypes. Aiming to build reliable data systems and drive meaningful innovation in AI and technology.`,
