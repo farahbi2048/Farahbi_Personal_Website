@@ -73,9 +73,7 @@ export const Header: React.FC<HeaderProps> = ({
                 {PERSONAL_INFO.shortName}
               </span>
               <span className="text-xs text-amber-500 font-mono flex items-center gap-1">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse inline-block"></span>
-                AI & Software Student
-              </span>
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse inline-block">
             </div>
           </a>
 
