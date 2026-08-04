@@ -35,6 +35,7 @@ export const Header: React.FC<HeaderProps> = ({
     { name: 'Skills', href: '#skills' },
     { name: 'Leadership', href: '#leadership' },
     { name: 'Awards', href: '#awards' },
+    { name: 'Gallery', href: '#memories' },
   ];
 
   const handleNavClick = (href: string) => {

@@ -6,6 +6,7 @@ import { TimelineSection } from './components/TimelineSection';
 import { SkillsSection } from './components/SkillsSection';
 import { LeadershipSection } from './components/LeadershipSection';
 import { AwardsSection } from './components/AwardsSection';
+import Memories from './components/Memories';
 import { ProjectModal } from './components/ProjectModal';
 import { ResumeModal } from './components/ResumeModal';
 import { ContactModal } from './components/ContactModal';
@@ -21,7 +22,7 @@ export default function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'projects', 'timeline', 'skills', 'leadership', 'awards'];
+      const sections = ['about', 'projects', 'timeline', 'skills', 'leadership', 'awards', 'memories'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -76,6 +77,8 @@ export default function App() {
         <LeadershipSection darkMode={darkMode} />
 
         <AwardsSection darkMode={darkMode} />
+
+        <Memories darkMode={darkMode} />
       </main>
 
       {/* Footer */}
